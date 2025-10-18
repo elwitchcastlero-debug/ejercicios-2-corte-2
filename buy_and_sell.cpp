@@ -22,7 +22,7 @@ public:
     }
 };
 int main(){
-    vector<int> a={7,6,4,3,1};
+    vector<int> a={7,1,5,3,6,4};
     Stock s(a);
     int f =s.isStock();
     cout<<"Ganancia maxima: "<<f<<endl;
