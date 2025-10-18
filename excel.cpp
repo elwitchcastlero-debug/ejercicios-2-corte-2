@@ -12,7 +12,7 @@ public:
         for(int i=0;i<colums.length();i++){
             for(int j=0;j<v.length();j++){
                 if(colums[i]==v[j]){
-                    result=rang*i+j+1;
+                    result=result*rang+j+1;
                 }
 
             }
